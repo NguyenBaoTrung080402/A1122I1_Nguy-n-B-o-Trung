@@ -1,0 +1,209 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---------------------------------------*/
+#header {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.login{
+    display: flex;
+}
+#login , #start{
+   background-color: black;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+#login a{
+    color: white;
+}
+#start{
+    background-color: rgb(234, 220, 220);
+}
+#start a{
+    color: black;
+}
+#start:hover{
+    background-color: rgb(130, 72, 72);
+}
+#start a:hover{
+    text-decoration: none;
+    color: white;
+}
+#login a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+#login:hover{
+    background-color: rgb(204, 134, 134);
+}
+
+.search-input{
+    background-color: rgb(196, 189, 189);
+    outline: none;
+    border: 1px solid rgb(196, 189, 189) ;
+    border-radius: 5px;
+    position: relative;
+}
+div .icon{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: -26px;
+    display: block;
+}
+.bodyAll{
+    display: flex;
+    /* align-items: center;   */
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#menu{
+    display: flex;
+}
+#gio_hang{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+#menu div{
+   padding-right: 10px;  
+    
+}
+#menu div a{
+    color: black;
+}
+#menu div a:hover{
+    text-decoration: none;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.body2{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+}
+.body2 .body2_child1 a{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body2 .body2_child1{
+    background-color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.body2 .body2_child1:hover{
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.body3{
+    background-color: rgb(225, 225, 225);
+    
+}
+.body3 h2{
+    margin: 0 auto;
+    padding: 70px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list_product1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.list_product1 .product{
+    position: relative;
+}
+.list_product1 .product a{
+    color: grey;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list_product1 .product .xemnhanh{
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: white;
+    background-color: black;
+    display: none;
+    text-decoration: none;
+}
+.list_product1 .product .xemnhanh:hover{
+    display: block;
+}
+.price-box{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
